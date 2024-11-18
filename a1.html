@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="a1.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 256 256" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: orange; margin-left: 10px; margin-top: 1px; font-size: 60px;">
+                    <path d="M225.27,60.21l-96-32a4,4,0,0,0-2.54,0l-96,32A4,4,0,0,0,28,64v80a4,4,0,0,0,8,0V69.55L79.88,84.18a60,60,0,0,0,24.54,91c-20.86,5.74-39,19.13-51.77,38.65a4,4,0,0,0,6.7,4.36C75.17,193.92,100.2,180,128,180s52.83,13.92,68.65,38.18a4,4,0,0,0,6.7-4.36c-12.72-19.52-30.91-32.91-51.77-38.65a60,60,0,0,0,24.54-91l49.15-16.39a4,4,0,0,0,0-7.58ZM180,120A52,52,0,1,1,87.93,86.86l38.8,12.93a3.95,3.95,0,0,0,2.54,0l38.8-12.93A51.85,51.85,0,0,1,180,120ZM128,91.78,44.65,64,128,36.22,211.35,64Z"></path>
+                </svg>
+                <h1>My Portfolio</h1>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="content">
+            <img src="c:\Users\kanna\OneDrive\Pictures\image\WhatsApp Image 2024-10-26 at 11.42.27 AM (1).jpeg" 
+            width="184" height="186"> 
+            <h2>Hi, I'm Kannan</h2>
+            <p>I'm a Java Full Stack Developer skilled in Java, JavaScript, HTML, and Bootstrap. With<br>
+                a Bachlor of Computer Application, I build dynamic, responsive web applications<br>
+                and thrive on learning new technologies.</p>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>As a dedicated Full Stack Java Developer, I bring a blend of technical expertise, creativity, and a passion for problem-solving to every project I undertake.<br> Outside of my professional life, I value my role as a father and enjoy leveraging the discipline and responsibility I practice at home to drive my professional growth.<br> This commitment to balance helps me approach challenges with patience and determination, ensuring that I remain focused and productive in a dynamic work environment.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-cards">
+                <div class="project-card">
+                    <h3>Tic Tac Toe</h3>
+                    <p>A classic Tic Tac Toe game where two players can play, determining the winner. The game involves nine moves and showcases the winner using JavaScript.</p>
+                </div>
+                <div class="project-card">
+                    <h3>BILLING</h3>
+                    <p>Generates a supermarket bill including product name, price, tax, total, and additional details. This project is implemented using JavaScript.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skill" class="skill">
+        <div class="container">
+            <h2>Skills</h2>
+            <h2 class="aa">Front-End Development</h2>
+            <div class="skill-cards">
+                <div class="skill-card">
+                   <img src="https://icon-library.com/images/html5-icon/html5-icon-13.jpg" width="40%" height="65%" alt="">
+                   <h3>HTML</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-1024.png" alt="" width="40%" height="65%" >
+                    <h3>CSS</h3>
+                </div>
+
+                <div class="skill-card">
+                    <img src="https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png" width="40%" height="65%" alt="">
+                    <h3>JavaScript</h3>
+                 </div>
+                 <div class="skill-card">
+                     <img src="https://th.bing.com/th/id/OIP.7HHjYiNdT8wJUR3C87kglgAAAA?rs=1&pid=ImgDetMain" alt="" width="40%" height="65%" >
+                     <h3>Bootstrap</h3>
+                 </div>
+            </div>
+            <h2 class="aa">Back-End Development</h2>
+            <div class="skill-card">
+                <img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/181_Java-1024.png" alt="" width="30%" height="55%" >
+                <h3>Java</h3>
+            </div>
+        </div>
+        
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="btn-submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Kannan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<script>a1.js</script>

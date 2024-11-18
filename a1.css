@@ -1,0 +1,252 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+  
+    
+}
+.container h1{
+   position: absolute;
+   padding-left: 6%;
+   padding-top: 1%;
+}
+.container svg{
+    position: absolute;
+ 
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar h1 {
+    font-size: 1.8em;
+}
+
+
+.nav-links {
+    list-style: none;
+    padding-left: 65%;
+    padding-top: 2%;
+}
+
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+   
+}
+
+.nav-links a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #898989;
+    font-size: 20px;
+    font-weight: 600;
+   
+    position: relative;
+}
+
+.nav-links a:hover {
+    color: #ff6347;
+}
+
+.nav-links a::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 0; /* Start with no underline */
+    height: 3px;
+    background-color: brown;
+    transition: width 0.5s ease-in-out; /* Transition only the width */
+}
+
+.nav-links a:hover::before {
+    width: 100%; /* Grow the underline on hover */
+}
+
+/* Home Section */
+.home {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+    position: relative;
+}
+.home img{
+    margin-left: 30%;
+    border-radius: 50%;
+    position: absolute;
+   margin-top: 0%;
+}
+.home h2 {
+    font-size: 3em;
+    padding-right: 30%;
+}
+
+.home p {
+    font-size: 1.3em;
+    padding-right: 30%;
+}
+
+/* About Section */
+.about {
+    background-color: #fff;
+    color: #333;
+    padding: 120px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5em;
+}
+
+.about p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+/* Projects Section */
+.projects {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.project-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    font-size: 1.8em;
+}
+
+.project-card p {
+    font-size: 1.1em;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #333;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    width: 60%;
+    margin: auto;
+    text-align: left;
+}
+
+.contact form label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact form button {
+    background-color: #ff6347;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #d9534f;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1em;
+}
+.skill {
+    background-color: #f9f9f99e;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.skill h2 {
+    font-size: 2.5em;
+  margin-top: 2%;
+}
+
+.skill-cards {
+    display: flex;
+    margin-top: 3%;
+    
+}
+.skill .aa{
+    padding-right: 70%;
+    font-size: 2.0em;
+}
+
+.skill-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-right: 10%;
+    width: 15%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card h3 {
+    font-size: 1.8em;
+}
+
+.skill-card p {
+    font-size: 1.1em;
+}
